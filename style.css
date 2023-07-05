@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #242424;
+  transition: all 300ms ease;
+  position: relative;
+}
+
+.container {
+  padding: 32px;
+}
+
+.main__container {
+  padding: 96px 32px;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.no-cursor {
+  cursor: not-allowed;
+}
+
+.text--purple {
+  color: rgb(100 21 255);
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+/* nav section */
+
+.nav__anchor {
+  display: flex;
+}
+
+.nav__anchor--logo {
+  width: 40px;
+  height: 40px;
+}
+
+.nav__anchor--text {
+  font-weight: 900;
+  font-size: 24px;
+  color: #242424;
+  padding-left: 12px;
+  align-self: center;
+}
+
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__links {
+  display: flex;
+}
+
+.nav__link {
+  font-size: 16px;
+  margin: 0px 24px;
+}
+
+.nav__link:hover {
+  color: rgb(100 21 255);
+}
+
+.nav__link--effect:after {
+  content: "";
+  position: absolute;
+  background-color: rgb(100 21 255);
+  height: 2px;
+  width: 100%;
+  bottom: -6px;
+  right: 0;
+  opacity: 0;
+  transition: all 300ms ease;
+}
+
+/* psuedo elements will have hover in between */
+.nav__link--effect:hover:after {
+  opacity: 1;
+}
+
+.nav__link:last-child {
+  margin-right: 0px;
+}
+
+.nav__link--primary {
+  color: #ffffff;
+  background-color: rgb(100 21 255);
+  padding: 12px 32px;
+  border-style: none;
+  border-radius: 9999px;
+}
+
+.nav__link--primary:hover {
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+/* landing section */
+
+.landing__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.landing__description {
+  width: 37%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.landing__title {
+  font-size: 48px;
+  margin-bottom: 32px;
+}
+
+.landing__subtitle {
+  font-size: 18px;
+  margin-bottom: 32px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.landing__form {
+  display: flex;
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.landing__form--input {
+  width: 100%;
+  color: #242424;
+  border-radius: 9999px;
+  border: 2px solid rgb(160 174 192);
+  padding: 20px;
+  font-size: 20px;
+}
+
+.landing__form--input::placeholder {
+  color: rgb(160 174 192);
+  font-size: 16px;
+}
+
+.landing__form--button {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 700;
+  background-color: rgb(100 21 255);
+  border-radius: 9999px;
+  padding: 16px 32px;
+}
+
+.landing__para {
+  color: rgb(160 174 192);
+  margin-bottom: 16px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.landing__trusted--img {
+  width: 100%;
+  opacity: 0.6;
+}
+
+.landing__img--wrapper {
+  width: 57%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing__img {
+  width: 100%;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+/* features section */
+
+.features__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.features__heading {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.features__title {
+  font-size: 48px;
+  font-weight: 900;
+  color: rgb(36, 62, 99);
+  margin-bottom: 16px;
+}
+
+.features__subtitle {
+  font-size: 20px;
+  color: rgb(124, 139, 161);
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.features__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0px 12px;
+}
+
+.feature {
+  width: 30%;
+  display: flex;
+  margin: 32px 0px;
+}
+
+.feature__img--wrapper {
+  display: flex;
+  border-radius: 9999px;
+  border: 1px solid rgb(226, 232, 240);
+  text-align: center;
+  padding: 24px;
+  align-self: flex-start;
+  margin-right: 16px;
+}
+
+.feature__title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: rgb(36, 62, 99);
+}
+
+.feature__description {
+  font-size: 16px;
+  line-height: 2;
+  color: rgb(124, 139, 161);
+}
