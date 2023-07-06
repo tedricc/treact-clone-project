@@ -23,7 +23,7 @@ a {
 }
 
 .main__container {
-  padding: 96px 32px;
+  padding: 80px 32px;
 }
 
 .row {
@@ -58,6 +58,7 @@ a {
   color: rgb(124, 139, 161);
   max-width: 600px;
   margin-bottom: 56px;
+  line-height: 1.5;
 }
 
 /* ----------------------------------------------------------------------------------------------------------------------- */
@@ -159,7 +160,6 @@ a {
   font-size: 18px;
   margin-bottom: 32px;
   font-weight: 300;
-  line-height: 1.5;
 }
 
 .landing__form {
@@ -306,6 +306,9 @@ a {
   align-items: center;
   justify-content: center;
   width: 48%;
+  border: 1px solid rgb(226, 232, 240);
+  border-radius: 4px;
+  overflow: hidden;
 }
 
 .quality__img {
@@ -365,4 +368,82 @@ a {
   color: rgb(113, 128, 150);
   margin-bottom: 32px;
   max-width: 300px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+/* values section */
+
+.values__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.values__description {
+  width: 48%;
+}
+
+.values__subtitle {
+  margin-bottom: 32px;
+}
+
+.values__list {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.value {
+  padding-right: 20px;
+}
+
+.value__wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.value__img--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9999px;
+  padding: 8px;
+  margin-right: 12px;
+}
+
+.wrapper-green {
+  background-color: rgb(154, 230, 180);
+  color: rgb(39, 103, 73);
+}
+
+.wrapper-red {
+  background-color: rgb(254, 178, 178);
+  color: rgb(155, 44, 44);
+}
+
+.value__img {
+  width: 20px;
+  height: 20px;
+}
+
+.value__title {
+  font-size: 20px;
+  color: rgb(36, 62, 99);
+  font-weight: 700;
+}
+
+.value__description {
+  color: rgb(113, 128, 150);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.values__img--wrapper {
+  display: flex;
+  align-items: center;
+  width: 48%;
+}
+
+.values__img {
+  width: 100%;
 }
