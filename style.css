@@ -40,6 +40,26 @@ a {
   color: rgb(100 21 255);
 }
 
+.main__heading {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.main__title {
+  font-size: 48px;
+  font-weight: 900;
+  color: rgb(36, 62, 99);
+  margin-bottom: 16px;
+}
+
+.main__subtitle {
+  font-size: 18px;
+  color: rgb(124, 139, 161);
+  max-width: 600px;
+  margin-bottom: 56px;
+}
+
 /* ----------------------------------------------------------------------------------------------------------------------- */
 
 /* nav section */
@@ -172,6 +192,7 @@ a {
   font-weight: 700;
   background-color: rgb(100 21 255);
   border-radius: 9999px;
+  border-width: 0px;
   padding: 16px 32px;
 }
 
@@ -209,25 +230,8 @@ a {
   align-items: center;
 }
 
-.features__heading {
-  font-size: 16px;
-  font-weight: 700;
-  letter-spacing: 2px;
-}
-
-.features__title {
-  font-size: 48px;
-  font-weight: 900;
-  color: rgb(36, 62, 99);
-  margin-bottom: 16px;
-}
-
 .features__subtitle {
-  font-size: 20px;
-  color: rgb(124, 139, 161);
-  max-width: 600px;
   text-align: center;
-  margin-bottom: 56px;
 }
 
 .features__list {
@@ -264,4 +268,101 @@ a {
   font-size: 16px;
   line-height: 2;
   color: rgb(124, 139, 161);
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+/* quality section */
+
+.quality__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quality__description {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  justify-content: space-around;
+}
+
+.quality__subtitle {
+  margin-bottom: 32px;
+}
+
+.learn-more__button {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 700;
+  background-color: rgb(100 21 255);
+  max-width: 150px;
+  border-radius: 9999px;
+  border-width: 0px;
+  padding: 12px 32px;
+}
+
+.quality__img--wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48%;
+}
+
+.quality__img {
+  width: 100%;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+/* steps section */
+
+.steps__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.steps__img--wrapper {
+  width: 48%;
+  display: flex;
+  align-items: center;
+}
+
+.steps__img {
+  width: 100%;
+}
+
+.steps__description {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.step {
+  display: flex;
+}
+
+.step:first-child {
+  margin-top: 16px;
+}
+
+.step__number {
+  font-size: 36px;
+  color: rgb(203, 213, 224);
+  font-weight: 500;
+  margin-right: 24px;
+}
+
+.step__instruction--title {
+  font-size: 20px;
+  color: rgb(36, 62, 99);
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.step__instruction--description {
+  font-size: 14px;
+  color: rgb(113, 128, 150);
+  margin-bottom: 32px;
+  max-width: 300px;
 }
