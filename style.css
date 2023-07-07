@@ -18,6 +18,10 @@ a {
   position: relative;
 }
 
+button {
+  background-color: #ffffff;
+}
+
 .container {
   padding: 32px;
 }
@@ -446,4 +450,160 @@ a {
 
 .values__img {
   width: 100%;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+/* values section */
+
+.plans__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.plans__heading {
+  text-align: center;
+}
+
+.plans__title {
+  text-align: center;
+}
+
+.plans__subtitle {
+  text-align: center;
+}
+
+.plans__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.plan {
+  width: 31%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(226, 232, 240);
+  border-radius: 8px;
+  position: relative;
+}
+
+.plan__decoration--top {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 8px;
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.plan__tier {
+  padding: 32px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plan__title {
+  font-size: 20px;
+  color: #242424;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.plan__price {
+  font-size: 48px;
+  color: #242424;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.plan__duration {
+  font-size: 16px;
+  color: rgb(160, 174, 192);
+  font-weight: 700;
+}
+
+.plan__description {
+  width: 100%;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-style: solid;
+  border-color: rgb(226, 232, 240);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+}
+
+.plan__description--header {
+  font-size: 20px;
+  color: #242424;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.plan__description--text {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: rgb(113, 128, 150);
+}
+
+.plan__description--text:last-child {
+  margin-bottom: 0px;
+}
+
+.plan__button--wrapper {
+  margin: 32px;
+}
+
+.buy-now__button {
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 9999px;
+  border-width: 0px;
+  padding: 16px 72px;
+}
+
+.decoration--green {
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
+}
+
+.decoration--blue {
+  color: #ffffff;
+  background: linear-gradient(
+    135deg,
+    rgb(76, 81, 191) 0%,
+    rgb(102, 126, 234) 100%
+  );
+}
+
+.decoration--red {
+  background: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
+}
+
+.text--white {
+  color: #ffffff;
+}
+
+.text--black {
+  color: #242424;
 }
