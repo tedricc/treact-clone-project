@@ -140,7 +140,7 @@ button {
 
 .nav__link--primary:hover {
   color: #ffffff;
-  opacity: 0.8;
+  background-color: rgb(81, 18, 207);
 }
 
 /* ----------------------------------------------------------------------------------------------------------------------- */
@@ -610,4 +610,117 @@ button {
 
 .text--black {
   color: #242424;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+/* testimonials section */
+
+.testimonials__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testimonials__img--wrapper {
+  width: 48%;
+}
+
+.testimonials__img {
+  width: 100%;
+}
+
+.testimonials__description {
+  width: 48%;
+}
+
+.testimonials__title {
+  text-align: left;
+}
+
+.testimonial__rating {
+  color: #fabf2a;
+  margin-bottom: 16px;
+}
+
+.testimonial__title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: rgb(36, 62, 99);
+}
+
+.testinomial__text {
+  color: rgb(113, 128, 150);
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.testimonial__user--wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.testimonial__user {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.testimonial__img--wrapper {
+  border-radius: 9999px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.testimonial__img {
+  width: 80px;
+  height: 80px;
+  scale: 1.1;
+}
+
+.testimonial__user--name {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(36, 62, 99);
+}
+
+.testimonial__user--title {
+  color: rgb(113, 128, 150);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+/* questions section */
+
+.questions__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.questions__subtitle {
+  text-align: center;
+}
+
+.questions__list {
+  width: 70%;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+  margin-bottom: 20px;
+  background-color: rgb(237 242 247);
+  border-radius: 8px;
+}
+
+.question__text {
+  font-size: 20px;
+  font-weight: 500;
 }
