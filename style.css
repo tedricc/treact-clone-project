@@ -74,6 +74,11 @@ button {
   line-height: 1.5;
 }
 
+.feather-chevron-down {
+  min-height: 24px;
+  min-width: 24px;
+}
+
 /* ----------------------------------------------------------------------------------------------------------------------- */
 
 /* nav section */
@@ -1226,6 +1231,9 @@ button {
 }
 
 @media (max-width: 550px) {
+  .contact__container {
+    padding: 96px 40px;
+  }
   .contact__description {
     font-size: 24px;
   }
