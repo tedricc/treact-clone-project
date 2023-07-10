@@ -1262,6 +1262,7 @@ button {
   }
 
   .footer__copyright {
+    text-align: center;
     margin: 16px 0px;
   }
 
