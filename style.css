@@ -75,6 +75,9 @@ button {
 }
 
 .feather-chevron-down {
+  position: absolute;
+  right: 8px;
+  top: calc(50% - 12px);
   min-height: 24px;
   min-width: 24px;
 }
@@ -862,6 +865,7 @@ button {
 }
 
 .question {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1331,6 +1335,54 @@ footer {
 }
 
 @media (max-width: 550px) {
+  .main__container {
+    padding: 40px 16px;
+  }
+
+  .main__title {
+    font-size: 28px;
+  }
+
+  .feature {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature__img--wrapper {
+    align-self: center;
+    margin: 0;
+    margin-bottom: 12px;
+  }
+
+  .feature__title {
+    font-size: 20px;
+  }
+
+  .landing__form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature__description--wrapper {
+    text-align: center;
+  }
+
+  .landing__form--button {
+    position: static;
+    margin-top: 32px;
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .testimonial__user {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial__img--wrapper {
+    margin: 0px 0px 12px 0px;
+  }
+
   .contact__container {
     padding: 96px 40px;
   }
@@ -1361,7 +1413,7 @@ footer {
   }
 }
 
-@media (min-width:1024px) {
+@media (min-width: 1024px) {
   .nav__menu--backdrop {
     display: none;
   }
