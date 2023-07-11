@@ -12,6 +12,7 @@
       src="https://kit.fontawesome.com/c8e4d183c2.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./index.js"></script>
   </head>
   <body>
     <section id="landing">
@@ -55,6 +56,62 @@
                   >
                 </li>
               </ul>
+
+              <button class="nav__menu" onclick="openMenu()">
+                <i class="fas fa-bars"></i>
+              </button>
+              <div class="nav__menu--backdrop">
+                <button
+                  class="nav__menu nav__menu--close"
+                  onclick="closeMenu()"
+                >
+                  <i class="fas fa-times"></i>
+                </button>
+                <div class="nav__menu--links">
+                  <div class="nav__menu--link">
+                    <a
+                      href="#"
+                      class="nav__menu--anchor no-cursor nav__link--effect"
+                      onclick="closeMenu()"
+                    >About</a>
+                  </div>
+                  <div class="nav__menu--link">
+                    <a
+                      href="#"
+                      class="nav__menu--anchor no-cursor nav__link--effect"
+                      onclick="closeMenu()"
+                    >Blog</a>
+                  </div>
+                  <div class="nav__menu--link">
+                    <a
+                      href="#plans"
+                      class="nav__menu--anchor nav__link--effect"
+                      onclick="closeMenu()"
+                    >Pricing</a>
+                  </div>
+                  <div class="nav__menu--link">
+                    <a
+                      href="#contact"
+                      class="nav__menu--anchor no-cursor nav__link--effect"
+                      onclick="closeMenu()"
+                    >Contact Us</a>
+                  </div>
+                  <div class="nav__menu--link">
+                    <a
+                      href="#"
+                      class="nav__menu--anchor no-cursor nav__link--effect"
+                      onclick="closeMenu()"
+                    >Login</a>
+                  </div>
+                  <div class="nav__menu--link">
+                    <a
+                      href="#"
+                      class="nav__menu--anchor nav__menu--primary no-cursor"
+                      onclick="closeMenu()"
+                    >Sign Up</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
